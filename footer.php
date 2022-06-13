@@ -8,9 +8,7 @@
         <div class="col-sm-12 col-md-6 form-area text-center">
           <h3 class="contact-title text-center">Contact Me</h3>
           <i class="fas fa-envelope envelope"></i>
-          <?php if(is_active_sidebar('contact_shortcode') ) : ?>
-            <?php dynamic_sidebar('contact_shortcode'); ?>
-          <?php endif; ?>
+          <?php the_field('contact_form_shortcode', 'option'); ?>
         </div>
 
         <div class="col-md-3">
