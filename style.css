@@ -332,6 +332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
 
   .updates {
     padding: 0 10px;
+    margin: 0 6px 0;
   }
 
   .list-unstyled li,
@@ -739,8 +740,8 @@ a h2.blog-post-title:hover {
 }
 
 .blockquote .blockquote-footer cite {
-  font-size: 1.1rem;
-  color: #4d4d4d;
+  font-size: 1.2rem;
+  color: var(--color-white);
 }
 
 .copyright {
