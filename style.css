@@ -14,6 +14,12 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+/* For mobile site home page to stay inbounds with no white space scrolling to the right or down past the footer */
+.navbar,
+.jumbotron,
+.intro-section {
+  overflow: hidden;
+}
 
 /** Bootstrap theme default styles **/
 .jumbotron {
@@ -108,9 +114,6 @@ body {
     font-size: 2.1875rem;
   }
 
-  body {
-    overflow: hidden;
-  }
 }
 
 /* Navbar */
