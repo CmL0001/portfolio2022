@@ -40,7 +40,6 @@ body {
   --ten-pixels: 10px;
   --fifteen-pixels: 15px;
   --twenty-pixels: 20px;
-
 }
 
 .jumbotron p:last-child {
@@ -107,6 +106,10 @@ body {
   .laptop,
   .teacher {
     font-size: 2.1875rem;
+  }
+
+  body {
+    overflow: hidden;
   }
 }
 
