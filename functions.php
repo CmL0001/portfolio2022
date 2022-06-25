@@ -131,7 +131,7 @@ function form_widgets_init() {
 add_action( 'widgets_init', 'form_widgets_init' );
 
 // Function for javascript tod greeting on projects page
-function js_greeting() { 
+/*function js_greeting() { 
     ?>
         <script type="text/javascript">
         	const greeting = document.getElementById("greeting");
@@ -143,12 +143,12 @@ function js_greeting() {
 			else if (hour < 18) welcomeText = welcomeTypes[1];
 			else welcomeText = welcomeTypes[2];
 
-			greeting.innerHTML = welcomeText;
+			greeting.document.createTextNode = welcomeText;
         </script>
     <?php
     
 }
-add_action('wp_footer', 'js_greeting');
+add_action('wp_footer', 'js_greeting'); */
 
 
 /* Displays multiple post types on category page- posts, projects */
