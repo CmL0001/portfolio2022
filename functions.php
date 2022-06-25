@@ -143,7 +143,7 @@ function js_greeting() {
 			else if (hour < 18) welcomeText = welcomeTypes[1];
 			else welcomeText = welcomeTypes[2];
 
-			greeting.document.createTextNode = welcomeText;
+			greeting.innerHTML = welcomeText;
         </script>
     <?php
     
