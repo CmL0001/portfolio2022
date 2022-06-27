@@ -123,7 +123,7 @@ function form_widgets_init() {
 	register_sidebar( array(
 		'name'          => 'contact shortcode',
 		'id'            => 'contact_shortcode',
-		'before_widget' => '<form class="contact">',
+		'before_widget' => '<form action="" method="post" class="contact">',
 		'after_widget'  => '</form>',
 	) );
 
@@ -143,7 +143,9 @@ function js_greeting() {
 			else if (hour < 18) welcomeText = welcomeTypes[1];
 			else welcomeText = welcomeTypes[2];
 
-			greeting.innerHTML = welcomeText;
+			if(greeting) {
+				greeting.innerHTML = welcomeText;
+			}
         </script>
     <?php
     
