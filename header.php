@@ -10,7 +10,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="animated zoomInLeft navbar-brand" href="<?php echo home_url(); ?>"><img src="<?php the_field('logo', 'option'); ?>" class="align-center logo"><?php bloginfo('name'); ?></a>
+        <a class="animated zoomInLeft navbar-brand" href="<?php echo home_url(); ?>"><img src="<?php the_field('logo', 'option'); ?>" class="align-center logo" alt=""><?php bloginfo('name'); ?></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
