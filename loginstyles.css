@@ -1,0 +1,36 @@
+/* Login screen custom CSS */
+
+body {
+  /* Variables */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-orange: #ffa500;
+
+  background: rgba(255,255,255,1);
+  background: -webkit-linear-gradient(bottom left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(77,77,255,1) 54%, rgba(77,77,255,1) 100%);
+  background: -o-linear-gradient(bottom left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(77,77,255,1) 54%, rgba(77,77,255,1) 100%);
+  background: linear-gradient(to top right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 11%, rgba(77,77,255,1) 54%, rgba(77,77,255,1) 100%);
+}
+
+form#loginform {
+  border: 5px solid var(--color-black);
+  border-radius: 5px;
+}
+
+.login label {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wp-core-ui .button-primary {
+  background: var(--color-orange);
+  border: 3px solid var(--color-black);
+  color: var(--color-white);
+  font-size: 16px;
+}
+
+.wp-core-ui .button-primary:hover {
+  background: var(--color-white);
+  border: 3px solid var(--color-orange);
+  color: var(--color-orange);
+  font-size: 16px;
+}
