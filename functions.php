@@ -171,13 +171,6 @@ function headerUrl() {
 	return esc_url(site_url('/'));
 }
 
-add_action('login_enqueue_scripts', 'loginCSS');
-
-function loginCSS() {
-	wp_enqueue_style( 'styles', get_template_directory_uri() . '/loginstyles.css', array(), '1.0', 'all' );
-	wp_enqueue_style( 'googlefonts',  'https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+JP&display=swap', false );
-}
-
 function login_logo() { ?>
 <style type="text/css">
 #login h1 a, .login h1 a {
