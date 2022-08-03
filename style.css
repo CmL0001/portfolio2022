@@ -683,7 +683,7 @@ h1.category-title {
   }
 
   .project-details p {
-    color: #737373;
+    color: #000;
     font-size: var(--fifteen-pixels);
   }
 }
