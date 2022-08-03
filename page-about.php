@@ -10,7 +10,7 @@
 
   <?php $backgroundImg2 = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'about_page_background' ); ?>
 
-  <div class="about" style="background: url('<?php echo $backgroundImg2[0]; ?>') no-repeat; background-size:cover;">
+  <div class="about" style="background: url('<?php echo $backgroundImg2[0]; ?>') no-repeat; background-size:cover;background-position:center;">
 
     <h1 class="about-me text-center animated tada"><?php the_title(); ?></h1>
     <div class="row d-flex justify-content-center">
